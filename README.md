@@ -1,6 +1,6 @@
 # 🖼️ Персональный сайт-визитка
 
-> Минималистичный персональный сайт-портфолио с редакционной эстетикой.
+> Сайт-портфолио.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -10,10 +10,8 @@
 
 ## 📋 Описание проекта
 
-Персональный сайт-визитка, созданный в рамках учебного проекта.
+Персональный сайт-визитка.
 Сайт представляет собой трёхстраничное портфолио с навигацией, анимациями и контактной формой.
-
-**Живой просмотр:** [https://alexmorozov.github.io/portfolio](https://alexmorozov.github.io/portfolio)
 
 ---
 
@@ -38,16 +36,9 @@ portfolio/
 | `about.html`   | Статистика, текст о себе, сетка навыков с полосками |
 | `contact.html` | Контактная информация + форма обратной связи        |
 
-**Дополнительные детали:**
-- Фиксированная навигация с подсветкой активной страницы
-- CSS-анимации: плавное появление элементов (`fadeUp`), расширение полосок навыков
-- Адаптивная вёрстка — корректно отображается на мобильных устройствах
-- Подключены Google Fonts: `Cormorant Garamond` + `DM Mono`
-- Базовая валидация контактной формы на JavaScript
-
 ---
 
-## 🛠️ Технологии
+🛠️ Технологии
 
 - **HTML5** — семантическая разметка
 - **CSS3** — переменные, Grid, Flexbox, анимации, `backdrop-filter`
@@ -75,45 +66,10 @@ xdg-open index.html    # Linux
 
 ---
 
-## 🌿 Ветки (Git Workflow)
-
 | Ветка          | Описание                                   |
 |----------------|--------------------------------------------|
 | `main`         | Стабильная продакшн-версия                 |
 | `feature/design-update` | Разработка нового дизайна        |
 
----
 
-## 📌 История коммитов
-
-```
-feat: add contact form with JS validation       # commit 5
-feat: add about page with skills grid           # commit 4
-feat: add navigation and footer components      # commit 3
-style: set up CSS variables and base typography # commit 2
-init: project structure and index.html          # commit 1
-```
-
----
-
-## 🎓 Учебные цели
-
-- [x] Создание многостраничного сайта (HTML + CSS)
-- [x] Работа с Git: создание репозитория, коммиты, ветки
-- [x] Размещение проекта на GitHub Pages
-- [x] Оформление документации (README.md)
-- [x] Адаптивная вёрстка
-
----
-
-## 👤 Автор
-
-**Алексей Морозов**
-
-- GitHub: [@alexmorozov](https://github.com/alexmorozov)
-- Email: alex@morozov.dev
-- Telegram: [@alexmorozov](https://t.me/alexmorozov)
-
----
-
-*Проект создан в учебных целях. 2025.*
+*Руслан Ахмеджанов.*
