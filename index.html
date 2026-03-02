@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Алексей Морозов — Разработчик</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a class="nav-logo" href="index.html">А.М.</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Главная</a></li>
+      <li><a href="about.html">Обо мне</a></li>
+      <li><a href="contact.html">Контакт</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="page">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Портфолио — 2025</p>
+        <h1 class="hero-name">
+          Алексей<br>
+          <em>Морозов</em>
+        </h1>
+        <p class="hero-tagline">
+          Front-end разработчик &amp; UI-дизайнер.<br>
+          Создаю интерфейсы, которые запоминаются.
+        </p>
+        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="about.html" class="btn">Узнать больше</a>
+          <a href="contact.html" class="btn btn-accent">Написать мне</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-frame">
+          <span class="avatar-placeholder">&#x1F464;</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider">Последние работы</div>
+
+    <!-- PROJECTS TEASER -->
+    <section style="display:grid; grid-template-columns: repeat(3,1fr); gap:1.5rem;">
+      <div class="skill-item fade-in" style="border:1px solid var(--border); padding:2rem;">
+        <p class="section-label">Web</p>
+        <h3 style="font-weight:300; font-size:1.3rem; margin-bottom:0.5rem;">E-commerce Platform</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">React · Node.js · MongoDB</p>
+      </div>
+      <div class="skill-item fade-in" style="border:1px solid var(--border); padding:2rem;">
+        <p class="section-label">Mobile</p>
+        <h3 style="font-weight:300; font-size:1.3rem; margin-bottom:0.5rem;">Task Manager App</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">React Native · Firebase</p>
+      </div>
+      <div class="skill-item fade-in" style="border:1px solid var(--border); padding:2rem;">
+        <p class="section-label">Design</p>
+        <h3 style="font-weight:300; font-size:1.3rem; margin-bottom:0.5rem;">Brand Identity Kit</h3>
+        <p style="font-size:0.9rem; color:var(--muted);">Figma · Illustrator</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Алексей Морозов</span>
+    <span>Сделано с ♥ и большим количеством кофе</span>
+  </footer>
+
+</body>
+</html>
